@@ -1,0 +1,456 @@
+.body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+.greet-block {
+  width: 1480px;
+  height: 2680px;
+  margin-top: 0;
+  background-color: rgba(96, 157, 187, 0.382)
+}
+
+.head-background {
+  width: 1480px;
+  height: 90px;
+  background: rgba(128, 169, 182, 0.301);
+}
+
+.head-icon {
+  margin-bottom: 24px;
+  width: 140px;
+  height: 88px;
+
+  border: 1px solid #00a8e1;
+}
+
+.safety {
+  color: blue;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+  margin-left: 28px;
+  font-size: 20px;
+}
+
+.contacts {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.send-info {
+  color: #f7f6f4;
+  margin-top: 7px;
+}
+
+.enter-button {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 26px;
+  margin-left: 750px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 16px;
+  width: 200px;
+  height: 36px;
+  background-color: rgba(19, 125, 211, 0.884);
+}
+
+.anchor1 {
+  text-decoration: none;
+}
+
+.hi {
+  margin: 0;
+  /* Обнуляем значение отступов */
+  padding: 0px;
+  /* Значение полей */
+  display: inline;
+  /* Отображать как строчный элемент */
+}
+
+.li {
+  display: inline;
+  /* Отображать как строчный элемент */
+  float: left;
+}
+
+.main {
+  color: #0b36b8;
+  margin-top: 64px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text {
+  font-size: 20px;
+  margin-left: 16px;
+}
+
+.audi-color {
+  font-weight: 700;
+  color: red;
+  font-size: 20px;
+}
+
+.mercedes-color {
+  font-weight: 700;
+  color: darkmagenta;
+  font-size: 20px;
+}
+
+.porsche-color {
+  font-weight: 700;
+  color: rgba(97, 180, 20, 0.862);
+  font-size: 20px;
+}
+
+.bmw-color {
+  font-weight: 700;
+  color: black;
+  font-size: 20px;
+}
+
+.honda-color {
+  font-weight: 700;
+  color: rgba(235, 73, 9, 0.89);
+  font-size: 20px;
+}
+
+.site-job {
+  text-decoration: none;
+}
+
+.video {
+  margin-left: 0px;
+}
+
+.name {
+  color: #282626;
+  margin-left: 16px;
+  font-size: 16px;
+}
+
+.img {
+  margin-top: 32px;
+}
+
+.top5 {
+  margin-left: 24px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: blue;
+}
+
+.audi {
+  margin-top: 64px;
+  margin-left: 0;
+  margin-right: 24px;
+  width: 164px;
+  height: 158px;
+}
+
+.mers {
+  margin-top: 64px;
+  margin-right: 24px;
+  margin-left: 24px;
+  width: 163px;
+  height: 158px;
+}
+
+.honda {
+  margin-top: 64px;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 163px;
+  height: 158px;
+}
+
+.porsche {
+  margin-top: 64px;
+  margin-right: 24px;
+  margin-left: 24px;
+  width: 244px;
+  height: 157px;
+}
+
+.bmw {
+  margin-top: 64px;
+  margin-left: 24px;
+  width: 299px;
+  height: 158px;
+}
+
+.logo {
+  margin-left: 100px;
+}
+
+.anchor {
+  color: blue;
+  text-decoration: none;
+}
+
+.anchor1 {
+  color: #3a1212;
+}
+
+.input1 {
+  padding-left: 12px;
+  font-size: 12px;
+  margin-top: 64px;
+  margin-left: 600px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 16px;
+  stroke: rgba(190, 131, 131, 0.03);
+  width: 220px;
+  height: 40px;
+  background-color: #f7f6f4;
+}
+
+.input2 {
+  padding-left: 12px;
+  font-size: 12px;
+  margin-top: 24px;
+  margin-left: 600px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 16px;
+  stroke: rgba(190, 131, 131, 0.03);
+  width: 220px;
+  height: 40px;
+  background-color: #f7f6f4;
+}
+
+.textarea {
+  font-size: 12px;
+  margin-top: 32px;
+  margin-left: 600px;
+  padding-top: 12px;
+  padding-left: 12px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 16px;
+  stroke: rgba(190, 131, 131, 0.03);
+  width: 220px;
+  height: 120px;
+  background-color: #f7f6f4;
+}
+
+.btn-82,
+.btn-82 *,
+.btn-82 :after,
+.btn-82 :before,
+.btn-82:after,
+.btn-82:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-82 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #dc9212;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+
+.btn-82:disabled {
+  cursor: default;
+}
+
+.btn-82:-moz-focusring {
+  outline: auto;
+}
+
+.btn-82 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-82 [hidden] {
+  display: none;
+}
+
+.btn-82 {
+  margin-top: 24px;
+  margin-left: 645px;
+  background: none;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  padding: 1.2rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.btn-82 span {
+  font-weight: 900;
+  mix-blend-mode: difference;
+  transition: opacity 0.2s;
+}
+
+.btn-82:hover span {
+  -webkit-animation: text-reset 0.2s 0.8s forwards;
+  animation: text-reset 0.2s 0.8s forwards;
+  opacity: 0;
+}
+
+.btn-82:after,
+.btn-82:before {
+  border: 4px solid #dc9212;
+  border-radius: 888px;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: height 0.4s;
+  width: 100%;
+}
+
+.btn-82:after {
+  background-color: rgba(19, 125, 211, 0.884);
+  border: none;
+  height: 2rem;
+  width: 0;
+  z-index: -1;
+}
+
+.btn-82:hover:before {
+  -webkit-animation: border-reset 0.2s linear 0.78s forwards;
+  animation: border-reset 0.2s linear 0.78s forwards;
+  height: 2rem;
+}
+
+.btn-82:hover:after {
+  -webkit-animation: progress-bar 1s;
+  animation: progress-bar 1s;
+}
+
+@-webkit-keyframes progress-bar {
+  0% {
+    opacity: 1;
+    width: 0;
+  }
+
+  10% {
+    opacity: 1;
+    width: 15%;
+  }
+
+  25% {
+    opacity: 1;
+    width: 25%;
+  }
+
+  40% {
+    opacity: 1;
+    width: 35%;
+  }
+
+  55% {
+    opacity: 1;
+    width: 75%;
+  }
+
+  60% {
+    opacity: 1;
+    width: 100%;
+  }
+
+  to {
+    opacity: 0;
+    width: 100%;
+  }
+}
+
+@keyframes progress-bar {
+  0% {
+    opacity: 1;
+    width: 0;
+  }
+
+  10% {
+    opacity: 1;
+    width: 15%;
+  }
+
+  25% {
+    opacity: 1;
+    width: 25%;
+  }
+
+  40% {
+    opacity: 1;
+    width: 35%;
+  }
+
+  55% {
+    opacity: 1;
+    width: 75%;
+  }
+
+  60% {
+    opacity: 1;
+    width: 100%;
+  }
+
+  to {
+    opacity: 0;
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes border-reset {
+  0% {
+    height: 2rem !important;
+  }
+
+  to {
+    height: 100% !important;
+  }
+}
+
+@keyframes border-reset {
+  0% {
+    height: 2rem !important;
+  }
+
+  to {
+    height: 100% !important;
+  }
+}
+
+@-webkit-keyframes text-reset {
+  0% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes text-reset {
+  0% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1430px) {
+}
