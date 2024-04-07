@@ -1,40 +1,48 @@
+/*Reset*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .body {
   margin: 0;
   font-family: "Montserrat";
-}
-
-.greet-block {
-  width: 1480px;
-  height: 2680px;
-  margin-top: 0;
-  background-color: rgba(96, 157, 187, 0.382)
+  background-color: rgba(96, 157, 187, 0.382);
 }
 
 .head-background {
-  width: 1480px;
-  height: 90px;
+  padding: 10px 20px 10px 20px;
   background: rgba(128, 169, 182, 0.301);
 }
 
 .head-icon {
-  margin-bottom: 24px;
-  width: 140px;
-  height: 88px;
-
+  width: 60px;
+  height: 40px;
   border: 1px solid #00a8e1;
 }
 
 .safety {
   color: blue;
   font-family: "Montserrat", sans-serif;
-  margin-top: 30px;
-  margin-left: 28px;
+  /* margin-top: 30px;
+  margin-left: 28px; */
   font-size: 20px;
 }
 
 .contacts {
-  margin-top: 30px;
-  margin-left: 50px;
+  /* margin-top: 30px;
+  margin-left: 50px; */
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -42,44 +50,58 @@
 
 .send-info {
   color: #f7f6f4;
-  margin-top: 7px;
+  margin: auto;
 }
 
 .enter-button {
   font-weight: 700;
   font-size: 16px;
-  margin-top: 26px;
-  margin-left: 750px;
+  /* margin-top: 26px;
+  margin-left: 750px; */
   font-family: "Montserrat", sans-serif;
   border-radius: 16px;
   width: 200px;
   height: 36px;
   background-color: rgba(19, 125, 211, 0.884);
 }
-
+.li-button {
+  margin-left: auto;
+}
+.li-sefety-culture {
+  margin-left: 20px;
+}
+.li-contact-person {
+  margin-left: 40px;
+}
 .anchor1 {
   text-decoration: none;
 }
 
 .hi {
+  display: flex;
+
+  align-items: center;
+
   margin: 0;
   /* Обнуляем значение отступов */
   padding: 0px;
   /* Значение полей */
-  display: inline;
+  /* display: inline; */
   /* Отображать как строчный элемент */
 }
 
 .li {
-  display: inline;
+  /* display: inline; */
   /* Отображать как строчный элемент */
-  float: left;
+  /* float: left; */
 }
 
 .main {
   color: #0b36b8;
   margin-top: 64px;
   font-family: "Montserrat", sans-serif;
+}
+.greet-block {
 }
 
 .text {
@@ -142,49 +164,55 @@
   font-weight: 700;
   color: blue;
 }
-
+.clients-top{
+  margin-bottom: 40px;
+}
+.logo {
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+  /* margin-left: 100px; */
+}
 .audi {
-  margin-top: 64px;
+  /* margin-top: 64px;
   margin-left: 0;
-  margin-right: 24px;
+  margin-right: 24px; */
   width: 164px;
   height: 158px;
 }
 
 .mers {
-  margin-top: 64px;
+  /* margin-top: 64px;
   margin-right: 24px;
-  margin-left: 24px;
+  margin-left: 24px; */
   width: 163px;
   height: 158px;
 }
 
 .honda {
-  margin-top: 64px;
+  /* margin-top: 64px;
   margin-left: 24px;
-  margin-right: 24px;
+  margin-right: 24px; */
   width: 163px;
   height: 158px;
 }
 
 .porsche {
-  margin-top: 64px;
+  /* margin-top: 64px;
   margin-right: 24px;
-  margin-left: 24px;
+  margin-left: 24px; */
   width: 244px;
   height: 157px;
 }
 
 .bmw {
-  margin-top: 64px;
-  margin-left: 24px;
+  /* margin-top: 64px;
+  margin-left: 24px; */
   width: 299px;
   height: 158px;
 }
 
-.logo {
-  margin-left: 100px;
-}
+
 
 .anchor {
   color: blue;
@@ -194,13 +222,25 @@
 .anchor1 {
   color: #3a1212;
 }
+.info{
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.form-field {
+  margin-bottom: 24px;
+}
 .input1 {
   padding-left: 12px;
   font-size: 12px;
-  margin-top: 64px;
-  margin-left: 600px;
-  font-family: "Montserrat", sans-serif;
+  /* margin-top: 64px; */
+  /* margin-left: 600px; */
+  font-family: inherit;
   border-radius: 16px;
   stroke: rgba(190, 131, 131, 0.03);
   width: 220px;
@@ -208,7 +248,7 @@
   background-color: #f7f6f4;
 }
 
-.input2 {
+/* .input2 {
   padding-left: 12px;
   font-size: 12px;
   margin-top: 24px;
@@ -219,15 +259,15 @@
   width: 220px;
   height: 40px;
   background-color: #f7f6f4;
-}
+} */
 
 .textarea {
   font-size: 12px;
-  margin-top: 32px;
-  margin-left: 600px;
+  /* margin-top: 32px; */
+  /* margin-left: 600px; */
   padding-top: 12px;
   padding-left: 12px;
-  font-family: "Montserrat", sans-serif;
+  font-family: inherit;
   border-radius: 16px;
   stroke: rgba(190, 131, 131, 0.03);
   width: 220px;
@@ -282,7 +322,7 @@
 
 .btn-82 {
   margin-top: 24px;
-  margin-left: 645px;
+  /* margin-left: 645px; */
   background: none;
   border-radius: 999px;
   box-sizing: border-box;
