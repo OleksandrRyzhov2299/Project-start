@@ -35,14 +35,10 @@ ol {
 .safety {
   color: blue;
   font-family: "Montserrat", sans-serif;
-  /* margin-top: 30px;
-  margin-left: 28px; */
   font-size: 20px;
 }
 
 .contacts {
-  /* margin-top: 30px;
-  margin-left: 50px; */
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -56,8 +52,6 @@ ol {
 .enter-button {
   font-weight: 700;
   font-size: 16px;
-  /* margin-top: 26px;
-  margin-left: 750px; */
   font-family: "Montserrat", sans-serif;
   border-radius: 16px;
   width: 200px;
@@ -79,36 +73,27 @@ ol {
 
 .hi {
   display: flex;
-
   align-items: center;
-
   margin: 0;
-  /* Обнуляем значение отступов */
   padding: 0px;
-  /* Значение полей */
-  /* display: inline; */
-  /* Отображать как строчный элемент */
-}
-
-.li {
-  /* display: inline; */
-  /* Отображать как строчный элемент */
-  /* float: left; */
 }
 
 .main {
   color: #0b36b8;
-  margin-top: 64px;
   font-family: "Montserrat", sans-serif;
-}
-.greet-block {
 }
 
 .text {
   font-size: 20px;
+  margin-top: 16px;
   margin-left: 16px;
 }
-
+.list-of-site {
+  margin-top: 20px;
+  margin-left: 64px;
+  display: flex;
+  gap: 100px;
+}
 .audi-color {
   font-weight: 700;
   color: red;
@@ -144,7 +129,10 @@ ol {
 }
 
 .video {
-  margin-left: 0px;
+  margin: 24px;
+  display: block;
+  border: 5px solid #0b3fb88d;
+  border-radius: 16px;
 }
 
 .name {
@@ -164,55 +152,38 @@ ol {
   font-weight: 700;
   color: blue;
 }
-.clients-top{
+.clients-top {
   margin-bottom: 40px;
 }
 .logo {
   justify-content: center;
   gap: 20px;
   display: flex;
-  /* margin-left: 100px; */
 }
 .audi {
-  /* margin-top: 64px;
-  margin-left: 0;
-  margin-right: 24px; */
   width: 164px;
   height: 158px;
 }
 
 .mers {
-  /* margin-top: 64px;
-  margin-right: 24px;
-  margin-left: 24px; */
   width: 163px;
   height: 158px;
 }
 
 .honda {
-  /* margin-top: 64px;
-  margin-left: 24px;
-  margin-right: 24px; */
   width: 163px;
   height: 158px;
 }
 
 .porsche {
-  /* margin-top: 64px;
-  margin-right: 24px;
-  margin-left: 24px; */
   width: 244px;
   height: 157px;
 }
 
 .bmw {
-  /* margin-top: 64px;
-  margin-left: 24px; */
   width: 299px;
   height: 158px;
 }
-
-
 
 .anchor {
   color: blue;
@@ -222,7 +193,7 @@ ol {
 .anchor1 {
   color: #3a1212;
 }
-.info{
+.info {
   padding-top: 64px;
   padding-bottom: 64px;
 }
@@ -238,8 +209,6 @@ ol {
 .input1 {
   padding-left: 12px;
   font-size: 12px;
-  /* margin-top: 64px; */
-  /* margin-left: 600px; */
   font-family: inherit;
   border-radius: 16px;
   stroke: rgba(190, 131, 131, 0.03);
@@ -248,23 +217,8 @@ ol {
   background-color: #f7f6f4;
 }
 
-/* .input2 {
-  padding-left: 12px;
-  font-size: 12px;
-  margin-top: 24px;
-  margin-left: 600px;
-  font-family: "Montserrat", sans-serif;
-  border-radius: 16px;
-  stroke: rgba(190, 131, 131, 0.03);
-  width: 220px;
-  height: 40px;
-  background-color: #f7f6f4;
-} */
-
 .textarea {
   font-size: 12px;
-  /* margin-top: 32px; */
-  /* margin-left: 600px; */
   padding-top: 12px;
   padding-left: 12px;
   font-family: inherit;
@@ -322,7 +276,6 @@ ol {
 
 .btn-82 {
   margin-top: 24px;
-  /* margin-left: 645px; */
   background: none;
   border-radius: 999px;
   box-sizing: border-box;
@@ -490,7 +443,4 @@ ol {
   to {
     opacity: 1;
   }
-}
-
-@media screen and (max-width: 1430px) {
 }
