@@ -90,7 +90,7 @@ ol {
 }
 .list-of-site {
   margin-top: 20px;
-  margin-left: 64px;
+  justify-content: center;
   display: flex;
   gap: 100px;
 }
@@ -129,7 +129,7 @@ ol {
 }
 
 .video {
-  margin: 24px;
+  margin: 24px auto;
   display: block;
   border: 5px solid #0b3fb88d;
   border-radius: 16px;
